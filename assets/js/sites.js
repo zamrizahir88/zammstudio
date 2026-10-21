@@ -23,6 +23,69 @@ window.ZAMM_SITES = [
     updated: "2026-09-30"
   },
   {
+    id: "dpms",
+    name: "DPMS FKTEN: Digitalising the Design Project",
+    short: "DPMS FKTEN",
+    icon: "📊",
+    category: "Events",
+    tagline: "Presentations on the automated management ecosystem for the NMK31704 Design Project.",
+    description: "Front page for two talks on digitalising the Design Project at FKTEN: a briefing to the Dean on progress and the way forward to a faculty platform, and a Bulan Akademia 2026 sharing session on transforming course administration.",
+    features: [
+      "Briefing to the Dean (20 October 2026) and sharing session (14 October 2026)",
+      "Keyboard, click and fullscreen slide navigation",
+      "Click any screenshot to enlarge it",
+      "Static PDF backup of each deck"
+    ],
+    audience: "FKTEN management and academic staff",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://zamrizahir88.github.io/dpms-fkten/",
+    repo: "dpms-fkten",
+    shot: "assets/img/shots/dpms.jpg",
+    updated: "2026-10-20"
+  },
+  {
+    id: "fkten",
+    name: "FKTEN Website Redesign",
+    short: "FKTEN Redesign",
+    icon: "🏛️",
+    category: "Prototypes",
+    tagline: "A design prototype for a new Faculty of Electronic Engineering & Technology website.",
+    description: "A static redesign prototype for FKTEN, UniMAP, built from the content of the current faculty site. It shows a new homepage, About, Programmes and Contact pages, and a template for programme pages, ready to be converted to PHP/MySQL.",
+    features: [
+      "New homepage: programmes from Diploma to PhD, research centres, labs and news",
+      "About, Programmes, Contact and a reusable programme-page template",
+      "Shared header and footer, tabs, accordions and animations",
+      "Bilingual EN/BM switch and enquiry form (visual only for now)"
+    ],
+    audience: "FKTEN management and web team",
+    tech: ["HTML", "CSS", "JavaScript"],
+    url: "https://zamrizahir88.github.io/fkten/",
+    repo: "fkten",
+    shot: "assets/img/shots/fkten.jpg",
+    updated: "2026-10-14"
+  },
+  {
+    id: "osp",
+    name: "One Stop Physiotherapy (OSP) Changlun",
+    short: "OSP Physiotherapy",
+    icon: "🩺",
+    category: "Prototypes",
+    tagline: "A 16-page website mock-up for a physiotherapy centre in Changlun, Kedah.",
+    description: "A client-review mock-up for One Stop Physiotherapy. It covers services, conditions treated, home physiotherapy, sports and corporate packages, the team, reviews and FAQs, in a clean medical style built on the OSP brand's teal palette.",
+    features: [
+      "Interactive “Where does it hurt?” body map on the home page",
+      "Live opening-hours status and one-tap WhatsApp booking",
+      "16 pages generated from shared layout templates",
+      "Placeholder content clearly flagged for the client to confirm"
+    ],
+    audience: "Clinic owner (client review)",
+    tech: ["HTML", "CSS", "JavaScript", "Node build script"],
+    url: "https://zamrizahir88.github.io/OSP/",
+    repo: "OSP",
+    shot: "assets/img/shots/osp.jpg",
+    updated: "2026-10-18"
+  },
+  {
     id: "nmk42003",
     name: "NMK42003 Instrumentation",
     short: "NMK42003",

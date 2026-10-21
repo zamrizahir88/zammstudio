@@ -4,7 +4,7 @@
 
   const SITES = window.ZAMM_SITES || [];
   const GH_USER = "zamrizahir88";
-  const CATS = ["Teaching", "Events", "Systems", "Tools", "Profile"];
+  const CATS = ["Teaching", "Events", "Systems", "Tools", "Prototypes", "Profile"];
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
